@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: Font300;
+    src: url(./assets/fonts/Lausanne-300.woff2);
+}
+@font-face {
+    font-family: Font500;
+    src: url(./assets/fonts/Lausanne-500.woff2);
+}
+
+body {
+    background-color: #252525;
+    color: white;
+}
