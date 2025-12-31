@@ -8,7 +8,11 @@ import Projects from './pages/Projects.jsx';
 function App() {
   return (
     <div>
-      <Home />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/agence" element={<Agence />} />
+        <Route path="/projects" element={<Projects />} />
+      </Routes>
     </div>
   )
 }
